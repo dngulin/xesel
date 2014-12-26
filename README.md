@@ -1,4 +1,4 @@
-XeSEL v 1.0
+XeSEL 1.0
 =====
 
 **Xe**LaTeX **S**chematic **E**lements **L**ist Class
