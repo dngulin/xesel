@@ -83,9 +83,7 @@
 
 % entry commands
 \newcommand*{\XeselEntry}[4]{#1 & #2 & #3 & #4 \\}
-\newcommand*{\XeselHeader}[1]{%
-&&&\\
-& \multicolumn{1}{c}{\underline{\smash{\textbf{#1}}}} &&\\}
+\newcommand*{\XeselHeader}[1]{& \multicolumn{1}{c}{\textbf{#1}} &&\\\nopagebreak}
 
 % draw variables
 \newlength{\ELHeight}
