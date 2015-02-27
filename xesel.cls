@@ -244,4 +244,4 @@
 \setcounter{page}{1}
 \enlargethispage{-24mm}
 \XeselDataFont\XeselFontVIIviii
-\begin{longtable}{>{\centering}p{18mm}p{108mm}>{\centering}p{8mm}p{43mm}}}{\end{longtable}\label{xesel:\arabic{xesel}:lastpage}}
+\begin{longtable}{>{\centering}p{18mm}p{108mm}>{\centering}p{8mm}p{43mm}}}{\label{xesel:\arabic{xesel}:lastpage}\end{longtable}}
