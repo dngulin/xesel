@@ -46,6 +46,9 @@
 % enable free font sizing
 \RequirePackage{lmodern}
 
+% enable mixed colors
+\RequirePackage{xcolor}
+
 % font size & style commands
 \newcommand*{\XeselFontVv}{\fontsize{5mm}{5mm}\selectfont}
 \newcommand*{\XeselFontVIIv}{\fontsize{7mm}{5mm}\selectfont}
