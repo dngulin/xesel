@@ -19,7 +19,7 @@
 %%%
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{xesel}[2014/12/26 v1.0 Schematic Elements Listing]
+\ProvidesClass{xesel}[2025/05/23 v1.1 Schematic Elements Listing]
 
 % only xelatex (cyrillic strings)
 \RequirePackage{ifxetex}
