@@ -110,7 +110,7 @@
 				\setcounter{ELLines}{31}
 			\fi
 			% draw extra fields
-			\put(8mm,5mm){
+			\put(8mm,5mm){%
 				\begin{picture}(0mm,0mm)
 					% vertical lines
 					\put(0mm,0mm){\line(0,1){145mm}}
@@ -130,7 +130,7 @@
 					\put(-1mm,110.5mm){\begin{sideways}\parbox[c][5mm][b]{34mm}{\centering\XeselFormFont\XeselFontVv Подп. и дата}\end{sideways}}
 				\end{picture}}
 			% go to inframe drwing
-			\put(20mm,5mm){
+			\put(20mm,5mm){%
 				\begin{picture}(0mm,0mm)
 					% draw table
 					\put(20mm,\ELStampHeight) {\line(0,1){\ELHeight}}
