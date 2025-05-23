@@ -46,9 +46,6 @@
 % enable free font sizing
 \RequirePackage{lmodern}
 
-% enable mixed colors
-\RequirePackage{xcolor}
-
 % font size & style commands
 \newcommand*{\XeselFontVv}{\fontsize{5mm}{5mm}\selectfont}
 \newcommand*{\XeselFontVIIv}{\fontsize{7mm}{5mm}\selectfont}
@@ -97,7 +94,6 @@
 \AtBeginShipout{%
 	\AtBeginShipoutUpperLeft{%
 		\begin{picture}(0,0)(0,\paperheight)
-			\color{blue!20!black!70!green}
 			% draw border
 			\linethickness{0.4mm}
 			\put(20mm,5mm)  {\line(1,0){185mm}}
