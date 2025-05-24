@@ -124,11 +124,11 @@
 					\put(0mm,110mm){\line(1,0){12mm}}
 					\put(0mm,145mm){\line(1,0){12mm}}
 					% text
-					\put(-1mm,  0.5mm){\begin{sideways}\parbox[c][5mm][b]{24mm}{\centering\XeselFormFont\XeselFontVv Инв. № подл.}\end{sideways}}
-					\put(-1mm, 25.5mm){\begin{sideways}\parbox[c][5mm][b]{34mm}{\centering\XeselFormFont\XeselFontVv Подп. и дата}\end{sideways}}
-					\put(-1mm, 60.5mm){\begin{sideways}\parbox[c][5mm][b]{24mm}{\centering\XeselFormFont\XeselFontVv Взам. инв. №}\end{sideways}}
-					\put(-1mm, 85.5mm){\begin{sideways}\parbox[c][5mm][b]{24mm}{\centering\XeselFormFont\XeselFontVv Инв. № дубл.}\end{sideways}}
-					\put(-1mm,110.5mm){\begin{sideways}\parbox[c][5mm][b]{34mm}{\centering\XeselFormFont\XeselFontVv Подп. и дата}\end{sideways}}
+					\put(-1mm,  0.5mm){\begin{sideways}\parbox[c][5mm][b]{24mm}{\centering\XeselFormFont\XeselFontVv{Инв. № подл.}}\end{sideways}}
+					\put(-1mm, 25.5mm){\begin{sideways}\parbox[c][5mm][b]{34mm}{\centering\XeselFormFont\XeselFontVv{Подп. и дата}}\end{sideways}}
+					\put(-1mm, 60.5mm){\begin{sideways}\parbox[c][5mm][b]{24mm}{\centering\XeselFormFont\XeselFontVv{Взам. инв. №}}\end{sideways}}
+					\put(-1mm, 85.5mm){\begin{sideways}\parbox[c][5mm][b]{24mm}{\centering\XeselFormFont\XeselFontVv{Инв. № дубл.}}\end{sideways}}
+					\put(-1mm,110.5mm){\begin{sideways}\parbox[c][5mm][b]{34mm}{\centering\XeselFormFont\XeselFontVv{Подп. и дата}}\end{sideways}}
 				\end{picture}}
 			% go to inframe drwing
 			\put(20mm,5mm){%
@@ -141,10 +141,10 @@
 					\linethickness{0.2mm}
 					\multiput(0,264mm)(0,-8mm){\arabic{ELLines}}{\line(1,0){185mm}}
 					\linethickness{0.4mm}
-					\put(  0mm,272mm){\parbox[b][15mm][c]{ 20mm}{\centering\XeselFormFont\XeselFontVIIv Поз. обозн.}}
-					\put( 20mm,272mm){\parbox[b][15mm][c]{110mm}{\centering\XeselFormFont\XeselFontVIIvii Наименование}}
-					\put(130mm,272mm){\parbox[b][15mm][c]{ 10mm}{\centering\XeselFormFont\XeselFontVIIvii Кол.}}
-					\put(140mm,272mm){\parbox[b][15mm][c]{ 45mm}{\centering\XeselFormFont\XeselFontVIIvii Примечание}}
+					\put(  0mm,272mm){\parbox[b][15mm][c]{ 20mm}{\centering\XeselFormFont\XeselFontVIIv{Поз. обозн.}}}
+					\put( 20mm,272mm){\parbox[b][15mm][c]{110mm}{\centering\XeselFormFont\XeselFontVIIvii{Наименование}}}
+					\put(130mm,272mm){\parbox[b][15mm][c]{ 10mm}{\centering\XeselFormFont\XeselFontVIIvii{Кол.}}}
+					\put(140mm,272mm){\parbox[b][15mm][c]{ 45mm}{\centering\XeselFormFont\XeselFontVIIvii{Примечание}}}
 					%
 					% draw stamp
 					\put(0,\ELStampHeight){\line(1,0){185mm}}
@@ -170,35 +170,35 @@
 						\put(0mm,35mm){\line(1,0){65mm}}
 						\linethickness{0.4mm}
 						% text
-						\put( 0.5mm, 26mm){ \parbox[b][5mm][b]{ 6mm}{\centering\XeselFormFont\XeselFontVv Изм.}                    }
-						\put( 7.5mm, 26mm){ \parbox[b][5mm][b]{ 9mm}{\centering\XeselFormFont\XeselFontVv Лист}                    }
-						\put(17.5mm, 26mm){ \parbox[b][5mm][b]{22mm}{\centering\XeselFormFont\XeselFontVv №\ докум.}               }
-						\put(40.5mm, 26mm){ \parbox[b][5mm][b]{14mm}{\centering\XeselFormFont\XeselFontVv Подп.}                   }
-						\put(55.5mm, 26mm){ \parbox[b][5mm][b]{ 9mm}{\centering\XeselFormFont\XeselFontVv Дата}                    }
+						\put( 0.5mm, 26mm){\parbox[b][5mm][b]{ 6mm}{\centering\XeselFormFont\XeselFontVv{Изм.}}}
+						\put( 7.5mm, 26mm){\parbox[b][5mm][b]{ 9mm}{\centering\XeselFormFont\XeselFontVv{Лист}}}
+						\put(17.5mm, 26mm){\parbox[b][5mm][b]{22mm}{\centering\XeselFormFont\XeselFontVv{№\ докум.}}}
+						\put(40.5mm, 26mm){\parbox[b][5mm][b]{14mm}{\centering\XeselFormFont\XeselFontVv{Подп.}}}
+						\put(55.5mm, 26mm){\parbox[b][5mm][b]{ 9mm}{\centering\XeselFormFont\XeselFontVv{Дата}}}
 						%
-						\put( 0.5mm, 21mm){ \parbox[b][5mm][b]{20mm}{\XeselFormFont\XeselFontVv Разраб.}                 }
-						\put( 0.5mm, 16mm){ \parbox[b][5mm][b]{20mm}{\XeselFormFont\XeselFontVv Проверил}                }
-						\put( 0.5mm,  6mm){ \parbox[b][5mm][b]{20mm}{\XeselFormFont\XeselFontVv Н. контр.}               }
-						\put( 0.5mm,  1mm){ \parbox[b][5mm][b]{20mm}{\XeselFormFont\XeselFontVv Утв.}                    }
+						\put( 0.5mm, 21mm){\parbox[b][5mm][b]{20mm}{\XeselFormFont\XeselFontVv{Разраб.}}}
+						\put( 0.5mm, 16mm){\parbox[b][5mm][b]{20mm}{\XeselFormFont\XeselFontVv{Проверил}}}
+						\put( 0.5mm,  6mm){\parbox[b][5mm][b]{20mm}{\XeselFormFont\XeselFontVv{Н. контр.}}}
+						\put( 0.5mm,  1mm){\parbox[b][5mm][b]{20mm}{\XeselFormFont\XeselFontVv{Утв.}}}
 						%
-						\put(135.5mm, 21mm){ \parbox[b][5mm][b]{14mm}{\centering\XeselFormFont\XeselFontVv Лит.}         }
-						\put(150.5mm, 21mm){ \parbox[b][5mm][b]{14mm}{\centering\XeselFormFont\XeselFontVv Лист}         }
-						\put(165.5mm, 21mm){ \parbox[b][5mm][b]{19mm}{\centering\XeselFormFont\XeselFontVv Листов}       }
+						\put(135.5mm, 21mm){\parbox[b][5mm][b]{14mm}{\centering\XeselFormFont\XeselFontVv{Лит.}}}
+						\put(150.5mm, 21mm){\parbox[b][5mm][b]{14mm}{\centering\XeselFormFont\XeselFontVv{Лист}}}
+						\put(165.5mm, 21mm){\parbox[b][5mm][b]{19mm}{\centering\XeselFormFont\XeselFontVv{Листов}}}
 						%
-						\put(150.5mm, 16mm){ \parbox[b][5mm][b]{14mm}{\centering\XeselFormFont\XeselFontVv \thepage}           }
-						\put(165.5mm, 16mm){ \parbox[b][5mm][b]{19mm}{\centering\XeselFormFont\XeselFontVv \pageref{xesel:\arabic{xesel}:lastpage}} }
+						\put(150.5mm, 16mm){\parbox[b][5mm][b]{14mm}{\centering\XeselFormFont\XeselFontVv \thepage}}
+						\put(165.5mm, 16mm){\parbox[b][5mm][b]{19mm}{\centering\XeselFormFont\XeselFontVv \pageref{xesel:\arabic{xesel}:lastpage}}}
 						%
-						\put(17.5mm, 21mm){ \parbox[b][5mm][b]{25mm}{\XeselFormFont\XeselFontVv\Xesel@Designer }}
-						\put(17.5mm, 16mm){ \parbox[b][5mm][b]{25mm}{\XeselFormFont\XeselFontVv\Xesel@Checker  }}
-						\put(17.5mm,  6mm){ \parbox[b][5mm][b]{25mm}{\XeselFormFont\XeselFontVv\Xesel@Inspector}}
-						\put(17.5mm,  1mm){ \parbox[b][5mm][b]{25mm}{\XeselFormFont\XeselFontVv\Xesel@Approver }}
+						\put(17.5mm,  21mm){\parbox[b][5mm][b]{25mm}{\XeselFormFont\XeselFontVv\Xesel@Designer}}
+						\put(17.5mm,  16mm){\parbox[b][5mm][b]{25mm}{\XeselFormFont\XeselFontVv\Xesel@Checker}}
+						\put(17.5mm,   6mm){\parbox[b][5mm][b]{25mm}{\XeselFormFont\XeselFontVv\Xesel@Inspector}}
+						\put(17.5mm,  1mm){\parbox[b][5mm][b]{25mm}{\XeselFormFont\XeselFontVv\Xesel@Approver}}
 						%
-						\put( 0.5mm,  11mm){ \parbox[b][5mm][b]{25mm}{\XeselFormFont\XeselFontVv\Xesel@ExtraState}}
-						\put(17.5mm,  11mm){ \parbox[b][5mm][b]{25mm}{\XeselFormFont\XeselFontVv\Xesel@ExtraName }}
+						\put( 0.5mm,  11mm){\parbox[b][5mm][b]{25mm}{\XeselFormFont\XeselFontVv\Xesel@ExtraState}}
+						\put(17.5mm,  11mm){\parbox[b][5mm][b]{25mm}{\XeselFormFont\XeselFontVv\Xesel@ExtraName}}
 						%
-						\put(  65mm,  25mm){ \parbox[b][15mm][c]{120mm}{\centering\XeselFormFont\XeselFontXx\Xesel@DocNumber}       }
-						\put(  65mm,   0mm){ \parbox[b][25mm][c]{ 70mm}{\centering\XeselFormFont\XeselDocumentNameFont\Xesel@DocName\XeselDocumentNameSuffix}}
-						\put( 135mm,   0mm){ \parbox[b][15mm][c]{ 50mm}{\centering\XeselFormFont\XeselFontVIIvii\Xesel@Organisation}}
+						\put(  65mm,  25mm){\parbox[b][15mm][c]{120mm}{\centering\XeselFormFont\XeselFontXx\Xesel@DocNumber}}
+						\put(  65mm,   0mm){\parbox[b][25mm][c]{ 70mm}{\centering\XeselFormFont\XeselDocumentNameFont\Xesel@DocName\XeselDocumentNameSuffix}}
+						\put( 135mm,   0mm){\parbox[b][15mm][c]{ 50mm}{\centering\XeselFormFont\XeselFontVIIvii\Xesel@Organisation}}
 					\else
 						% vertical lines
 						\put(  7mm, 0mm){\line(0,1){\ELStampHeight}}
@@ -214,15 +214,15 @@
 						\put(0,    10mm){\line(1,0){65mm}}
 						\linethickness{0.4mm}
 						% draw text
-						\put( 0.5mm, 1mm){ \parbox[b][5mm][b]{ 6mm}{\centering\XeselFormFont\XeselFontVv Изм.}                    }
-						\put( 7.5mm, 1mm){ \parbox[b][5mm][b]{ 9mm}{\centering\XeselFormFont\XeselFontVv Лист}                    }
-						\put(17.5mm, 1mm){ \parbox[b][5mm][b]{22mm}{\centering\XeselFormFont\XeselFontVv №\ докум.}               }
-						\put(40.5mm, 1mm){ \parbox[b][5mm][b]{14mm}{\centering\XeselFormFont\XeselFontVv Подп.}                   }
-						\put(55.5mm, 1mm){ \parbox[b][5mm][b]{ 9mm}{\centering\XeselFormFont\XeselFontVv Дата}                    }
-						\put( 175mm, 9mm){ \parbox[b][7mm][b]{ 9mm}{\centering\XeselFormFont\XeselFontVv\centering Лист}          }
-						\put( 175mm, 0mm){ \parbox[b][7mm][c]{ 9mm}{\centering\XeselFormFont\XeselFontVv\centering \arabic{page}} }
+						\put( 0.5mm, 1mm){\parbox[b][5mm][b]{ 6mm}{\centering\XeselFormFont\XeselFontVv{Изм.}}}
+						\put( 7.5mm, 1mm){\parbox[b][5mm][b]{ 9mm}{\centering\XeselFormFont\XeselFontVv{Лист}}}
+						\put(17.5mm, 1mm){\parbox[b][5mm][b]{22mm}{\centering\XeselFormFont\XeselFontVv{№\ докум.}}}
+						\put(40.5mm, 1mm){\parbox[b][5mm][b]{14mm}{\centering\XeselFormFont\XeselFontVv{Подп.}}}
+						\put(55.5mm, 1mm){\parbox[b][5mm][b]{ 9mm}{\centering\XeselFormFont\XeselFontVv{Дата}}}
+						\put( 175mm, 9mm){\parbox[b][7mm][b]{ 9mm}{\centering\XeselFormFont\XeselFontVv\centering{Лист}}}
+						\put( 175mm, 0mm){\parbox[b][7mm][c]{ 9mm}{\centering\XeselFormFont\XeselFontVv\centering\arabic{page}}}
 						% draw number
-						\put(  65mm, 0mm){ \parbox[b][15mm][c]{110mm}{\centering\XeselFormFont\XeselFontXx \Xesel@DocNumber}}
+						\put(  65mm, 0mm){ \parbox[b][15mm][c]{110mm}{\centering\XeselFormFont\XeselFontXx\Xesel@DocNumber}}
 					\fi
 				\end{picture}}
 		\end{picture}
