@@ -68,8 +68,6 @@
 \newcommand*{\Xesel@DocName}{}
 \newcommand*{\Xesel@Organisation}{}
 
-\newcommand*{\Xesel@DocNameFull}{{\XeselFontVIIv\Xesel@DocName}\\{\XeselFontVv Перечень элементов}}
-
 % setup data
 \newcommand*{\XeselDesignedBy} [1]{\renewcommand*{\Xesel@Designer}  {#1}}
 \newcommand*{\XeselCheckedBy}  [1]{\renewcommand*{\Xesel@Checker}   {#1}}
@@ -80,6 +78,9 @@
 \newcommand*{\XeselDocumentNumber}[1]{\renewcommand*{\Xesel@DocNumber}{#1}}
 \newcommand*{\XeselDocumentName}[1]{\renewcommand*{\Xesel@DocName}{#1}}
 \newcommand*{\XeselOrganisation}[1]{\renewcommand*{\Xesel@Organisation}{#1}}
+
+\newcommand*{\XeselDocumentNameFont}{\XeselFontVIIv}
+\newcommand*{\XeselDocumentNameSuffix}{\\{\XeselFontVv Перечень элементов}}
 
 % entry commands
 \newcommand*{\XeselEntry}[4]{#1 & #2 & #3 & #4 \\}
@@ -196,7 +197,7 @@
 						\put(17.5mm,  11mm){ \parbox[b][5mm][b]{25mm}{\XeselFormFont\XeselFontVv\Xesel@ExtraName }}
 						%
 						\put(  65mm,  25mm){ \parbox[b][15mm][c]{120mm}{\centering\XeselFormFont\XeselFontXx\Xesel@DocNumber}       }
-						\put(  65mm,   0mm){ \parbox[b][25mm][c]{ 70mm}{\centering\XeselFormFont\Xesel@DocNameFull}                 }
+						\put(  65mm,   0mm){ \parbox[b][25mm][c]{ 70mm}{\centering\XeselFormFont\XeselDocumentNameFont\Xesel@DocName\XeselDocumentNameSuffix}}
 						\put( 135mm,   0mm){ \parbox[b][15mm][c]{ 50mm}{\centering\XeselFormFont\XeselFontVIIvii\Xesel@Organisation}}
 					\else
 						% vertical lines

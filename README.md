@@ -36,6 +36,11 @@ XeSEL 1.0
 * `\newcommand*{\XeselFormFont}{\slshape\mdseries}`
 * `\newcommand*{\XeselDataFont}{\slshape\mdseries}`
 
+Команды для подстройки отображения документа:
+
+* `\newcommand*{\XeselDocumentNameFont}{\XeselFontVIIv}`
+* `\newcommand*{\XeselDocumentNameSuffix}{\\{\XeselFontVv Перечень элементов}}`
+
 Класс базируется на классе `article` и загружает следующие пакеты:
 
 * `ifxetex`
